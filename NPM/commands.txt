@@ -1,0 +1,33 @@
+//npm info check
+npm
+
+//npm version check
+npm -v
+
+create npm json
+npm init : create package json manually
+npm init --yes : create package json with default information
+
+//can make commands in script in package.json
+
+//check information of specific library
+npm view ~~
+
+//install specific library
+npm i ~~
+
+//uninstall
+npm un ~~
+
+//check project dependency
+npm ll
+
+//check outdated libraries
+npm outdated
+
+//update all outdated libraries in dependency 
+npm update / npm update ~~ (specific library)
+
+//install a library in dev mode
+npm i ~~ --save-dev
+
